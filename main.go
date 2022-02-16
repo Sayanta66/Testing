@@ -13,6 +13,5 @@ func multiply(n, multiplyBy int) int {
 	for i := 1; i < multiplyBy; i++ {
 		result = add(result, n)
 	}
-	
 	return result
-	
+}
